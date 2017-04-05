@@ -1,0 +1,55 @@
+body {
+	background-color: navy;
+	color: grey;
+}
+nav {
+	background-color: lightgrey;
+	height: 30px;
+}
+nav li {
+	float: left;
+	list-style-type: none;
+	margin: 5px 15px 0 15px;
+	font-family: sans-serif;
+	cursor: pointer;
+}
+nav li a:hover {
+	color: hotpink;
+}
+nav li a:visited {
+	color: green;
+}
+footer {
+	background-color: black;
+	color: white;
+	text-align: center;
+	clear: both;
+}
+.wrapper {
+	background-color: white;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.hero {
+	width: 100%;
+	overflow: hidden;
+}
+main {
+	width: 65%;
+	float: left;
+	background-color: lightblue;
+	padding: .5em;
+}
+aside {
+	width: 30%;
+	float: right;
+	background-color: lightyellow;
+	padding: .5em;
+}
+h1 {
+	text-align: center;
+}
+h1, h2, h3 {
+	color: gold;
+}
